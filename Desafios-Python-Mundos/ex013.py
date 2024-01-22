@@ -1,0 +1,6 @@
+print('Aumento de salários')
+n=input('Nome do funcionário: ')
+s=float(input('Salário atual do funcionário: R$ '))
+print('Aumento automático em 15%')
+a=s+(s*0.15)
+print('O funcionário {}, que ganhava R$ {:.2f}, teve um aumento de salário em 15% e receberá R$ {:.2f} por mês'.format(n, s, a))

@@ -1,0 +1,6 @@
+print('-'*36)
+print('Conversor - Celsius para Fahrenheit')
+c=float(input('Informe a temperatura em ºC: '))
+form=(c*(9/5)+32)
+print('{:.0f} ºC corresponde a {:.0f} ºF'.format(c, form))
+print('-'*36)
