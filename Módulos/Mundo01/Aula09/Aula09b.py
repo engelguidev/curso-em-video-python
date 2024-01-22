@@ -1,0 +1,11 @@
+frase = 'Curso em vídeo Python'
+#print(len(frase))
+#print(frase.count('o',0,13))
+#print(frase.find('deo'))
+#print(frase.find('Android'))
+#print('Curso'in frase)
+#print(frase.replace('Python','Curso'))
+#print(frase.upper())
+#print(frase.lower())
+#print(frase.capitalize())
+print(frase.title())
